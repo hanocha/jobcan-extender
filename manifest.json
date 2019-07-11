@@ -1,0 +1,12 @@
+{
+  "name": "Jobcan extender",
+  "version": "0.1",
+  "description": "",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://ssl.jobcan.jp/employee/attendance*"],
+      "js": ["main.js"]
+    }
+  ]
+}
