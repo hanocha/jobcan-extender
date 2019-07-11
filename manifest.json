@@ -6,7 +6,11 @@
   "content_scripts": [
     {
       "matches": ["https://ssl.jobcan.jp/employee/attendance*"],
-      "js": ["main.js"]
+      "js": ["attendance.js"]
+    },
+    {
+      "matches": ["https://ssl.jobcan.jp/employee/holiday/new*"],
+      "js": ["newHoliday.js"]
     }
   ]
 }
