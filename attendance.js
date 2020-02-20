@@ -16,7 +16,7 @@ window.onload = () => {
     const holidayRequestText = document.createTextNode("有給申請");
 
     const linkToHolidayRequest = document.createElement("a");
-    linkToHolidayRequest.setAttribute("href", `/employee/holiday/new?holiday_month=${month}&holiday_day=${day}&holiday_id=45&start_time=${startTime}`);
+    linkToHolidayRequest.setAttribute("href", `/employee/holiday/new?holiday_month=${month}&holiday_day=${day}&holiday_id=44&start_time=${startTime}`);
     linkToHolidayRequest.appendChild(holidayRequestText);
 
     const holidayRequestContainer = document.createElement("div");
